@@ -10,7 +10,7 @@ import { Animal } from './animal.model';
  </div>
  <div class="container">
   <h2>Animal List</h2>
-  <animal-list [childAnimalList]="masterAnimalList"></animal-list>
+  <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAniaml($event)"></animal-list>
  </div>
   `
 })
@@ -21,4 +21,10 @@ export class AppComponent {
     new Animal("Northwest Black Tailed Deer", "Tinkerbell", 8, "Herbivore", "Northern Trail", 2, "Female", "Delicate roots and leaves", "Loud noises"),
     new Animal("Ocelot", "Prince", 4, "Carnivore", "Tropical Rain Forest Building", 6, "Male", "Laying in the shade", "Toys")
   ];
+  selectedAnimal = null;
+
+  editAniaml(clickedAnimal) {
+    this.selectedAnimal = clickedAnimal;
+  }
+
 }
