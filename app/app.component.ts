@@ -10,6 +10,7 @@ import { Animal } from './animal.model';
  </div>
  <div class="container">
   <h2>Animal List</h2>
+  <animal-list></animal-list>
  </div>
   `
 })
