@@ -10,7 +10,7 @@ import { Animal } from './animal.model';
  </div>
  <div class="container">
   <h2>Animal List</h2>
-  <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAniaml($event)"></animal-list>
+  <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
  </div>
   `
 })
@@ -23,7 +23,7 @@ export class AppComponent {
   ];
   selectedAnimal = null;
 
-  editAniaml(clickedAnimal) {
+  editAnimal(clickedAnimal) {
     this.selectedAnimal = clickedAnimal;
   }
 
