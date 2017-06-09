@@ -15,7 +15,6 @@ export class AnimalListComponent {
   @Output() clickSender = new EventEmitter();
 
   editButtonClicked(animalToEdit: Animal) {
-    debugger;
     this.clickSender.emit(animalToEdit);
   }
 }
