@@ -18,6 +18,10 @@ body {
   font-family: 'Comfortaa', cursive;
 }
 
+#subheader {
+  text-decoration: underline;
+}
+
 #right-column {
   border-style: solid;
   border-width: thin;
