@@ -8,14 +8,14 @@
   letter-spacing: 22px;
 }
 
-body {
-  background-color: #c9dce5;
-  /*opacity: .8;*/
+.jumbotron h1 {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 85px;
 }
 
-.well {
-  /*background-color: #bfd95e;
-  opacity: .8;*/
+body {
+  background-color: #c9dce5;
+  font-family: 'Comfortaa', cursive;
 }
 
 #right-column {
