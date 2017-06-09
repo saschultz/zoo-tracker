@@ -36,6 +36,5 @@ Sara Schultz
 ### Support and contact details
 For questions/support contact Sara: saschultz8@gmail.com
 
-_contact info here_
 ### License
 _MIT_ &copy; _2017_ **Sara Schultz**
