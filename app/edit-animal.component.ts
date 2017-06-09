@@ -24,7 +24,7 @@ import { Animal } from './animal.model';
     <div class="row">
       <div class="col-sm-12">
         <br>
-        <button (click)="doneButtonClicked()">Done</button>
+        <button class="btn btn-default" (click)="doneButtonClicked()">Done</button>
       </div>
     </div>
   </div>

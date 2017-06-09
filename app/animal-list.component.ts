@@ -12,7 +12,7 @@ import { Animal } from './animal.model';
   <br><br>
   <div class="well">
     <ul>
-      <li *ngFor="let currentAnimal of childAnimalList | age:filterByAge"><b>{{currentAnimal.species}}</b><br>located in the  {{currentAnimal.location}}<br><br><b>Animal Profile</b><br><b>{{currentAnimal.name}}</b> <em>{{currentAnimal.age}} years old, {{currentAnimal.sex}}</em><br>{{currentAnimal.diet}}<br> likes: {{currentAnimal.likes}}<br>dislikes: {{currentAnimal.dislikes}}<br>Number of caretakers: {{currentAnimal.caretakers}}<br><br><button (click)="editButtonClicked(currentAnimal)">edit {{currentAnimal.name}}</button><br><br></li>
+      <li *ngFor="let currentAnimal of childAnimalList | age:filterByAge"><b>{{currentAnimal.species}}</b><br>located in the  {{currentAnimal.location}}<br><br><b>Animal Profile</b><br><b>{{currentAnimal.name}}</b> <em>{{currentAnimal.age}} years old, {{currentAnimal.sex}}</em><br>{{currentAnimal.diet}}<br> likes: {{currentAnimal.likes}}<br>dislikes: {{currentAnimal.dislikes}}<br>Number of caretakers: {{currentAnimal.caretakers}}<br><br><button class="btn btn-default" (click)="editButtonClicked(currentAnimal)">edit {{currentAnimal.name}}</button><br><br></li>
     </ul>
   </div>
   `
