@@ -29,3 +29,19 @@ body {
   background-color: #6888a0;
   color: white;
 }
+
+footer {
+  text-align: center;
+}
+
+#second-elephant {
+  margin-top: 17px;
+}
+
+#third-elephant {
+  margin-top: 30px;
+}
+
+#fourth-elephant {
+  margin-top: 37px;
+}

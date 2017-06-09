@@ -20,6 +20,8 @@ import { Animal } from './animal.model';
       </div>
     </div>
   </div>
+  <hr>
+  <footer><img src="../../resources/images/elephant.png" height="60"><img src="../../resources/images/elephant.png" height="40" id="second-elephant"><img src="../../resources/images/elephant.png" height="25" id="third-elephant"><img src="../../resources/images/elephant.png" height="18" id="fourth-elephant"></footer>
   `
 })
 
