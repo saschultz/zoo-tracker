@@ -7,24 +7,52 @@ import { Animal } from './animal.model';
   template: `
   <h2>Add Animal</h2>
   <div>
-    <label>Animal Species:</label>
-    <input #newSpecies>
-    <label>Animal Name:</label>
-    <input #newName>
-    <label>Animal Age:</label>
-    <input #newAge>
-    <label>Animal Diet:</label>
-    <input #newDiet>
-    <label>Animal Location:</label>
-    <input #newLocation>
-    <label>Animal Caretakers:</label>
-    <input #newCaretakers>
-    <label>Animal Sex:</label>
-    <input #newSex>
-    <label>Animal Likes:</label>
-    <input #newLikes>
-    <label>Animal Dislikes:</label>
-    <input #newDislikes>
+    <div class="row">
+      <div class="col-sm-6">
+        <label>Species</label><br>
+        <input #newSpecies><br>
+      </div>
+      <div class="col-sm-6">
+        <label>Name</label><br>
+        <input #newName><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <label>Age</label><br>
+        <input #newAge><br>
+      </div>
+      <div class="col-sm-6">
+        <label>Diet</label><br>
+        <input #newDiet><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <label>Location</label><br>
+        <input #newLocation><br>
+      </div>
+      <div class="col-sm-6">
+        <label>Caretakers</label><br>
+        <input #newCaretakers><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <label>Sex</label><br>
+        <input #newSex><br>
+      </div>
+      <div class="col-sm-6">
+        <label>Likes</label><br>
+        <input #newLikes><br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+        <label>Dislikes</label><br>
+        <input #newDislikes><br><br>
+      </div>
+    </div>    
     <button (click)="submitForm(newSpecies.value, newName.value, newAge.value, newDiet.value, newLocation.value, newCaretakers.value, newSex.value, newLikes.value, newDislikes.value);">Add</button>
   </div>
   `
