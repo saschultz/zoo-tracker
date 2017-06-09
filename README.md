@@ -22,6 +22,12 @@ This application was created for a hypothetical local zoo that is in need of a u
 * I want options to view all animals, only young animals (less than 2 years of age), or only mature animals (more than 2 years of age).
 * I want to click an animal to edit its name, age or caretakers.
 
+### Additional Future Functionality
+* Additional pipes to filter data based off animal's diet, species, or number of caretakers
+* Functionality to allow user to check off if the animal has been fed
+* Functionality to allow user to add specific employees as an animal's caretaker
+* Implement database to store/save animals
+
 ### Known Bugs
 No known bugs or issues here!
 
