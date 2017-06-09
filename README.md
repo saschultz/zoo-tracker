@@ -2,7 +2,7 @@
 
 ![screenshot](resources/images/header.png)
 
-This application was created for a hypothetical local zoo that is in need of a user friendly animal tracker. This application allows the user to view hard coded animal data, as well as enter more animals on the site. Animals can be edited and can be sorted to display by their age being older or younger than 2.
+This application was created for a hypothetical local zoo that is in need of a user friendly animal tracker. This application allows the user to view hard coded animal data, as well as enter more animals on the site. Animals can be edited and can be sorted to display by their age.
 
 ![screenshot](resources/images/footer.png)
 
