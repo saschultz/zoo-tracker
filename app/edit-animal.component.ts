@@ -7,7 +7,7 @@ import { Animal } from './animal.model';
   <div *ngIf="childSelectedAnimal">
     <div class="row">
       <hr>
-      <h3>Edit {{childSelectedAnimal.name}}</h3>
+      <h2>Edit {{childSelectedAnimal.name}}</h2>
       <div class="col-sm-4">
         <label>Name</label>
         <input [(ngModel)]="childSelectedAnimal.name"><br>
