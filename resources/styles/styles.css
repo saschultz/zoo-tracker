@@ -9,4 +9,18 @@
 }
 
 body {
+  background-color: #c9dce5;
+  /*opacity: .8;*/
+}
+
+.well {
+  /*background-color: #bfd95e;
+  opacity: .8;*/
+}
+
+#right-column {
+  border-style: solid;
+  border-width: thin;
+  margin-top: 105;
+  padding-bottom: 25;
 }
