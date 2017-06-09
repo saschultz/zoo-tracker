@@ -6,12 +6,14 @@ import { Animal } from './animal.model';
   selector: 'app-root',
   template: `
   <div class="jumbotron">
-   <h1>Zoo Tracker</h1>
- </div>
- <div class="container">
-  <h2>Animal List</h2>
-  <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
- </div>
+    <h1>Zoo Tracker</h1>
+  </div>
+  <div class="container">
+    <h2>Animal List</h2>
+    <animal-list [childAnimalList]="masterAnimalList" (clickSender)="editAnimal($event)"></animal-list>
+    <hr>
+    <edit-animal [childSelectedAnimal]="selectedAnimal" (doneButtonClickedSender)="finishedEditing()"></edit-animal>
+  </div>
   `
 })
 
@@ -27,4 +29,7 @@ export class AppComponent {
     this.selectedAnimal = clickedAnimal;
   }
 
+  finishedEditing() {
+    this.selectedAnimal = null;
+  }
 }

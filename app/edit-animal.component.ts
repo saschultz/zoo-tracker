@@ -6,12 +6,12 @@ import { Animal } from './animal.model';
   template: `
   <div *ngIf="childSelectedAnimal">
     <h3>Edit {{childSelectedAnimal.name}}</h3>
-    <label>Name</label><br>
-    <input [(ngModel)]="childSelectedAnimal.name">
-    <label>Age</label><br>
-    <input [(ngModel)]="childSelectedAnimal.age">
-    <label>Caretakers</label><br>
-    <input [(ngModel)]="childSelectedAnimal.caretakers">
+    <label>Name</label>
+    <input [(ngModel)]="childSelectedAnimal.name"><br>
+    <label>Age</label>
+    <input [(ngModel)]="childSelectedAnimal.age"><br>
+    <label>Caretakers</label>
+    <input [(ngModel)]="childSelectedAnimal.caretakers"><br>
     <button (click)="doneButtonClicked()">Done</button>
   </div>
   `
@@ -22,6 +22,6 @@ export class EditAnimalComponent {
   @Output() doneButtonClickedSender = new EventEmitter();
 
   doneButtonClicked() {
-    this.doneButtonClickedSender.emit();
+      this.doneButtonClickedSender.emit();
   }
 }
